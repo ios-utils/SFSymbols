@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SFSymbols_Tests' do
+  pod 'SFSymbols', :path => '../'
+  
+  
+end
