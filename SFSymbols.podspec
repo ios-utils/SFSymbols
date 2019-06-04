@@ -1,42 +1,26 @@
-#
-# Be sure to run `pod lib lint SFSymbols.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'SFSymbols'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SFSymbols.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.9.0'
+  s.summary          = 'Compile-time constants for SF Symbols.'
+  
+  s.ios.deployment_target = '13.0'
+  s.osx.deployment_target = '10.15'
+  s.tvos.deployment_target = '13.0'
+  s.watchos.deployment_target = '6.0'
+  s.swift_version = '5.0'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Compile-time constants for built-in SF Symbols.
+
+A set of over 1,500 consistent, highly configurable symbols you can use in your app. Apple designed SF Symbols to integrate seamlessly with the San Francisco system font, so the symbols automatically ensure optical vertical alignment with text for all weights and sizes. SF Symbols are available in a wide range of weights and scales to help you create adaptable designs.
+
+- See SF Symbols App: https://developer.apple.com/design/downloads/SF-Symbols.dmg
+- See Apple Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
                        DESC
 
-  s.homepage         = 'https://github.com/Reece Como/SFSymbols'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/hubrioAU/SFSymbols'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Reece Como' => 'reece.como@healthengine.com.au' }
-  s.source           = { :git => 'https://github.com/Reece Como/SFSymbols.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SFSymbols/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SFSymbols' => ['SFSymbols/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.author           = { 'Reece Como' => 'reece@hubr.io' }
+  s.source           = { :git => 'https://github.com/hubrioAU/SFSymbols.git', :tag => s.version.to_s }
+  s.source_files = 'SFSymbols/**/*'
 end

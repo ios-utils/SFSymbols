@@ -1,0 +1,16 @@
+PODS:
+  - SFSymbols (0.1.0)
+
+DEPENDENCIES:
+  - SFSymbols (from `../`)
+
+EXTERNAL SOURCES:
+  SFSymbols:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFSymbols: 0c647d80e82b24718a8c80c2d0843e0777b81e5c
+
+PODFILE CHECKSUM: 69510e58b13e65f6e654868d1d9787ccabd58216
+
+COCOAPODS: 1.6.1

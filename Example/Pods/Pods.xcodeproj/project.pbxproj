@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E5E5C122A7360500977A45 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5E5C022A7360500977A45 /* UIImage+SFSymbol.swift */; };
+		2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */; };
+		5682DFFA996BDAABCB938DC2E053ABD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */; };
+		7AB92CCBC848B7FDBFFE3CEF3ECDE89C /* Pods-SFSymbols_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD6B0B29ECAE129F04729D9B0BF6813 /* Pods-SFSymbols_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C756E2D283D91060FD8D72E0AED5EF06 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2B3E598102B17BD12F1778A67F44E /* SFSymbol.swift */; };
+		DFD51AD4DCEF74668BE2911258111B3D /* SFSymbols-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C9D584F0CBE5920BC3BF5F47FE9F00 /* SFSymbols-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6415C73530FE78D303B828C522C648F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CCF4DED5A8F73A28EA582B67E2EAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7F6E41922AF74955339DAB99838122;
+			remoteInfo = SFSymbols;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076203FCCF7D8B3F933A41AF8F1C5E9C /* Pods-SFSymbols_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFSymbols_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F8906E2389116F9E42E661B56AB65DC /* SFSymbols.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFSymbols.modulemap; sourceTree = "<group>"; };
+		1495C834C54D9AA41079CC2DE11DC9C1 /* SFSymbols-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSymbols-prefix.pch"; sourceTree = "<group>"; };
+		18EB07B415782453F984F9E59C8971BE /* SFSymbols-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFSymbols-Info.plist"; sourceTree = "<group>"; };
+		19D51B587243E4F46EFF566E29424C92 /* SFSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E5E5C022A7360500977A45 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SFSymbol.swift"; path = "SFSymbols/UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		38782AA9BA5683445528EB74F59FA5D9 /* Pods-SFSymbols_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFSymbols_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		659A0CAB5434663CA2C49751F1B533D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		67521BC099EA6FC0F37A63D7BDDE319E /* Pods-SFSymbols_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFSymbols_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A2C26268C3BB939573F9272193D2ED4 /* Pods_SFSymbols_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFSymbols_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB2B3E598102B17BD12F1778A67F44E /* SFSymbol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFSymbol.swift; path = SFSymbols/SFSymbol.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFSymbols_Tests-dummy.m"; sourceTree = "<group>"; };
+		A8D28A711B2A40F21A99149D59C79D23 /* SFSymbols.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFSymbols.xcconfig; sourceTree = "<group>"; };
+		ABE86A016C06E5AC23AB46221B78FCCF /* Pods-SFSymbols_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFSymbols_Tests.modulemap"; sourceTree = "<group>"; };
+		B39C6CD59E11F4AB1CB45729020C13FC /* SFSymbols.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SFSymbols.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCC075D425CEE4CF55B3140C525EFF38 /* Pods-SFSymbols_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFSymbols_Tests-Info.plist"; sourceTree = "<group>"; };
+		C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFSymbols-dummy.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC38F61EABEA78F5F2377875FEF23ADB /* Pods-SFSymbols_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFSymbols_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D4E7826B35BCA3E1C0C109F36716A634 /* Pods-SFSymbols_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFSymbols_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5C9D584F0CBE5920BC3BF5F47FE9F00 /* SFSymbols-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSymbols-umbrella.h"; sourceTree = "<group>"; };
+		E409A2CDF3E2819B218B4C1B4026D5F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EFD6B0B29ECAE129F04729D9B0BF6813 /* Pods-SFSymbols_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFSymbols_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097B796EA50D0335269B34C8D5B6AE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5682DFFA996BDAABCB938DC2E053ABD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F9524C2ACFBE2BF13AC40C7C6584056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6415C73530FE78D303B828C522C648F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C5805E669C11D55C6194402352B021 /* SFSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				7BB2B3E598102B17BD12F1778A67F44E /* SFSymbol.swift */,
+				29E5E5C022A7360500977A45 /* UIImage+SFSymbol.swift */,
+				D913965D63FF0F31BD86E80D12048DE9 /* Pod */,
+				7F24CC5211732A7B97686FD918BE5AFB /* Support Files */,
+			);
+			name = SFSymbols;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7F24CC5211732A7B97686FD918BE5AFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8906E2389116F9E42E661B56AB65DC /* SFSymbols.modulemap */,
+				A8D28A711B2A40F21A99149D59C79D23 /* SFSymbols.xcconfig */,
+				C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */,
+				18EB07B415782453F984F9E59C8971BE /* SFSymbols-Info.plist */,
+				1495C834C54D9AA41079CC2DE11DC9C1 /* SFSymbols-prefix.pch */,
+				D5C9D584F0CBE5920BC3BF5F47FE9F00 /* SFSymbols-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SFSymbols";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BB89C3E847C3BB17BF8A98A0FF8E0A11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C5805E669C11D55C6194402352B021 /* SFSymbols */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7EAAE91AC0ACFE524C674DDA9A449D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A2C26268C3BB939573F9272193D2ED4 /* Pods_SFSymbols_Tests.framework */,
+				19D51B587243E4F46EFF566E29424C92 /* SFSymbols.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F6E75BF7563158072587025667E05E /* Pods-SFSymbols_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE86A016C06E5AC23AB46221B78FCCF /* Pods-SFSymbols_Tests.modulemap */,
+				67521BC099EA6FC0F37A63D7BDDE319E /* Pods-SFSymbols_Tests-acknowledgements.markdown */,
+				38782AA9BA5683445528EB74F59FA5D9 /* Pods-SFSymbols_Tests-acknowledgements.plist */,
+				A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */,
+				CC38F61EABEA78F5F2377875FEF23ADB /* Pods-SFSymbols_Tests-frameworks.sh */,
+				BCC075D425CEE4CF55B3140C525EFF38 /* Pods-SFSymbols_Tests-Info.plist */,
+				EFD6B0B29ECAE129F04729D9B0BF6813 /* Pods-SFSymbols_Tests-umbrella.h */,
+				076203FCCF7D8B3F933A41AF8F1C5E9C /* Pods-SFSymbols_Tests.debug.xcconfig */,
+				D4E7826B35BCA3E1C0C109F36716A634 /* Pods-SFSymbols_Tests.release.xcconfig */,
+			);
+			name = "Pods-SFSymbols_Tests";
+			path = "Target Support Files/Pods-SFSymbols_Tests";
+			sourceTree = "<group>";
+		};
+		CC93CB5E21AA733DEC9C88BE4C95C00F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F6E75BF7563158072587025667E05E /* Pods-SFSymbols_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BB89C3E847C3BB17BF8A98A0FF8E0A11 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C7EAAE91AC0ACFE524C674DDA9A449D1 /* Products */,
+				CC93CB5E21AA733DEC9C88BE4C95C00F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D913965D63FF0F31BD86E80D12048DE9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E409A2CDF3E2819B218B4C1B4026D5F8 /* LICENSE */,
+				659A0CAB5434663CA2C49751F1B533D2 /* README.md */,
+				B39C6CD59E11F4AB1CB45729020C13FC /* SFSymbols.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B8A50D002121248208515B477CC1C9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB92CCBC848B7FDBFFE3CEF3ECDE89C /* Pods-SFSymbols_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5674EE19277CEA76418FADBCB720B2D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD51AD4DCEF74668BE2911258111B3D /* SFSymbols-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		317D016F50EAEDDF330750407806FC1D /* Pods-SFSymbols_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C473D43F383352C175EB50324554C1C /* Build configuration list for PBXNativeTarget "Pods-SFSymbols_Tests" */;
+			buildPhases = (
+				3B8A50D002121248208515B477CC1C9D /* Headers */,
+				B63EB934A4BCB8BAD8C5130DA0011C08 /* Sources */,
+				4F9524C2ACFBE2BF13AC40C7C6584056 /* Frameworks */,
+				848767A780C475B09A5F4E017F41017A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5244F64B2A127CED2092E98F140498 /* PBXTargetDependency */,
+			);
+			name = "Pods-SFSymbols_Tests";
+			productName = "Pods-SFSymbols_Tests";
+			productReference = 7A2C26268C3BB939573F9272193D2ED4 /* Pods_SFSymbols_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC7F6E41922AF74955339DAB99838122 /* SFSymbols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D0074D058E904195E8445340156AC9 /* Build configuration list for PBXNativeTarget "SFSymbols" */;
+			buildPhases = (
+				5674EE19277CEA76418FADBCB720B2D5 /* Headers */,
+				FC9DBC2770190B8A13E439BDF2DC564B /* Sources */,
+				097B796EA50D0335269B34C8D5B6AE0E /* Frameworks */,
+				76D7F57FBD6C29B991F78B50B493562A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFSymbols;
+			productName = SFSymbols;
+			productReference = 19D51B587243E4F46EFF566E29424C92 /* SFSymbols.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C7EAAE91AC0ACFE524C674DDA9A449D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				317D016F50EAEDDF330750407806FC1D /* Pods-SFSymbols_Tests */,
+				FC7F6E41922AF74955339DAB99838122 /* SFSymbols */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D7F57FBD6C29B991F78B50B493562A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848767A780C475B09A5F4E017F41017A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63EB934A4BCB8BAD8C5130DA0011C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9DBC2770190B8A13E439BDF2DC564B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C756E2D283D91060FD8D72E0AED5EF06 /* SFSymbol.swift in Sources */,
+				29E5E5C122A7360500977A45 /* UIImage+SFSymbol.swift in Sources */,
+				2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5244F64B2A127CED2092E98F140498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFSymbols;
+			target = FC7F6E41922AF74955339DAB99838122 /* SFSymbols */;
+			targetProxy = 98CCF4DED5A8F73A28EA582B67E2EAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		062E088054541F6EBDA88CE8E89CD4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4E7826B35BCA3E1C0C109F36716A634 /* Pods-SFSymbols_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFSymbols_Tests/Pods-SFSymbols_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFSymbols_Tests/Pods-SFSymbols_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A370EC75DB7995B361834AF7D5330BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D28A711B2A40F21A99149D59C79D23 /* SFSymbols.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFSymbols/SFSymbols-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFSymbols/SFSymbols-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFSymbols/SFSymbols.modulemap";
+				PRODUCT_MODULE_NAME = SFSymbols;
+				PRODUCT_NAME = SFSymbols;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42B4C0F7295D3BDCAD4C2BAAC1F7FE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D28A711B2A40F21A99149D59C79D23 /* SFSymbols.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFSymbols/SFSymbols-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFSymbols/SFSymbols-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFSymbols/SFSymbols.modulemap";
+				PRODUCT_MODULE_NAME = SFSymbols;
+				PRODUCT_NAME = SFSymbols;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BE49CD8D5890A1F8C8CB619C495E276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076203FCCF7D8B3F933A41AF8F1C5E9C /* Pods-SFSymbols_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFSymbols_Tests/Pods-SFSymbols_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFSymbols_Tests/Pods-SFSymbols_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C473D43F383352C175EB50324554C1C /* Build configuration list for PBXNativeTarget "Pods-SFSymbols_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE49CD8D5890A1F8C8CB619C495E276 /* Debug */,
+				062E088054541F6EBDA88CE8E89CD4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D0074D058E904195E8445340156AC9 /* Build configuration list for PBXNativeTarget "SFSymbols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A370EC75DB7995B361834AF7D5330BC /* Debug */,
+				42B4C0F7295D3BDCAD4C2BAAC1F7FE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
