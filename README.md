@@ -16,11 +16,13 @@ A set of over 1,500 consistent, highly configurable symbols you can use in your 
 - Download the SF Symbols App: https://developer.apple.com/design/downloads/SF-Symbols.dmg
 
 ## Usage
+
+### UIKit
 ```swift
 // Directly create UIImages for symbols.
 let myIcon = UIImage(symbol: .videoBadgeCircle)
 
-// Configure symbols with scale and weight properties, or provide a `UIImage.SymbolConfiguration`.
+// Configure symbols with `UIImage.SymbolConfiguration` properties.
 let bigBoldAlarm = UIImage(symbol: .alarm, weight: .bold, scale: .large)
 
 // All 1500+ symbols are supported.
@@ -32,6 +34,19 @@ let icons = [
     UIImage(symbol: .eyedropper),
     UIImage(symbol: .tuningfork)
 ]
+```
+
+### SwiftUI
+```swift
+// Directly create symbol images.
+struct ContentView : View {
+    var body: some View {
+        HStack {
+            Image(symbol: .waveform, symbolScale: .large)
+            Text("Hello World")
+        }
+    }
+}
 ```
 
 [![SF Symbols App Screenshot](https://i.imgur.com/WN32wKr.png)](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)

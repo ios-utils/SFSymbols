@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2922613822A87C14003D8EDE /* SwiftUI.Image+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922613722A87C14003D8EDE /* SwiftUI.Image+SFSymbol.swift */; };
+		2922613A22A87DE7003D8EDE /* UIKit.UIImage.SymbolConfiguration+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922613922A87DE7003D8EDE /* UIKit.UIImage.SymbolConfiguration+Extension.swift */; };
 		29B9989B22A8510A00023682 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987522A826C300023682 /* SFSymbol.swift */; };
-		29B9989C22A8510A00023682 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987622A826C300023682 /* UIImage+SFSymbol.swift */; };
+		29B9989C22A8510A00023682 /* UIKit.UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987622A826C300023682 /* UIKit.UIImage+SFSymbol.swift */; };
 		2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */; };
 		5682DFFA996BDAABCB938DC2E053ABD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */; };
@@ -33,8 +35,10 @@
 		1495C834C54D9AA41079CC2DE11DC9C1 /* SFSymbols-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSymbols-prefix.pch"; sourceTree = "<group>"; };
 		18EB07B415782453F984F9E59C8971BE /* SFSymbols-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFSymbols-Info.plist"; sourceTree = "<group>"; };
 		19D51B587243E4F46EFF566E29424C92 /* SFSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2922613722A87C14003D8EDE /* SwiftUI.Image+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SwiftUI.Image+SFSymbol.swift"; path = "Sources/SFSymbols/SwiftUI.Image+SFSymbol.swift"; sourceTree = "<group>"; };
+		2922613922A87DE7003D8EDE /* UIKit.UIImage.SymbolConfiguration+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIKit.UIImage.SymbolConfiguration+Extension.swift"; path = "Sources/SFSymbols/UIKit.UIImage.SymbolConfiguration+Extension.swift"; sourceTree = "<group>"; };
 		29B9987522A826C300023682 /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFSymbol.swift; path = Sources/SFSymbols/SFSymbol.swift; sourceTree = "<group>"; };
-		29B9987622A826C300023682 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SFSymbol.swift"; path = "Sources/SFSymbols/UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		29B9987622A826C300023682 /* UIKit.UIImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit.UIImage+SFSymbol.swift"; path = "Sources/SFSymbols/UIKit.UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		38782AA9BA5683445528EB74F59FA5D9 /* Pods-SFSymbols_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFSymbols_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		659A0CAB5434663CA2C49751F1B533D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67521BC099EA6FC0F37A63D7BDDE319E /* Pods-SFSymbols_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFSymbols_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				29B9987522A826C300023682 /* SFSymbol.swift */,
-				29B9987622A826C300023682 /* UIImage+SFSymbol.swift */,
+				2922613722A87C14003D8EDE /* SwiftUI.Image+SFSymbol.swift */,
+				29B9987622A826C300023682 /* UIKit.UIImage+SFSymbol.swift */,
+				2922613922A87DE7003D8EDE /* UIKit.UIImage.SymbolConfiguration+Extension.swift */,
 				D913965D63FF0F31BD86E80D12048DE9 /* Pod */,
 				7F24CC5211732A7B97686FD918BE5AFB /* Support Files */,
 			);
@@ -301,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2922613822A87C14003D8EDE /* SwiftUI.Image+SFSymbol.swift in Sources */,
+				2922613A22A87DE7003D8EDE /* UIKit.UIImage.SymbolConfiguration+Extension.swift in Sources */,
 				29B9989B22A8510A00023682 /* SFSymbol.swift in Sources */,
-				29B9989C22A8510A00023682 /* UIImage+SFSymbol.swift in Sources */,
+				29B9989C22A8510A00023682 /* UIKit.UIImage+SFSymbol.swift in Sources */,
 				2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
