@@ -10,9 +10,10 @@ import Foundation
  - See SF Symbols App: https://developer.apple.com/design/downloads/SF-Symbols.dmg
  - See Apple Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
  */
-public enum SFSymbol: String {
+@available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
+public enum SFSymbol : String {
     
-    // MARK: - Helpers
+    // MARK: - Properties
     
     /// Symbol raw system name.
     public var systemName: String {
