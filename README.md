@@ -20,6 +20,9 @@ A set of over 1,500 consistent, highly configurable symbols you can use in your 
 // Directly create UIImages for symbols.
 let myIcon = UIImage(symbol: .videoBadgeCircle)
 
+// Configure symbols with scale and weight properties, or provide a `UIImage.SymbolConfiguration`.
+let bigBoldAlarm = UIImage(symbol: .alarm, weight: .bold, scale: .large)
+
 // All 1500+ symbols are supported.
 let icons = [
     UIImage(symbol: .star),
