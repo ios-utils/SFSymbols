@@ -16,9 +16,21 @@ A set of over 1,500 consistent, highly configurable symbols you can use in your 
 
 ## Usage
 ```swift
-// Create a UIImage directly from an enum.
+// Directly create UIImages for symbols.
 let myIcon = UIImage(symbol: .videoBadgeCircle)
+
+// All 1500+ symbols are supported.
+let icons = [
+    UIImage(symbol: .star),
+    UIImage(symbol: .starFill),
+    UIImage(symbol: .wifi),
+    UIImage(symbol: .wifiSlash),
+    UIImage(symbol: .eyedropper),
+    UIImage(symbol: .tuningfork)
+]
 ```
+
+[![SF Symbols App Screenshot](https://i.imgur.com/WN32wKr.png)](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
 
 ## Installation
 
