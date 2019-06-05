@@ -2,8 +2,9 @@
 
 Autocompleted, compile-time constants for Apple's built-in SF Symbols.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d4f772e4db8461ca8cdc06713e101c1)](https://www.codacy.com/app/hubrioAU/SFSymbols?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hubrioAU/SFSymbols&amp;utm_campaign=Badge_Grade)
 [![Version](https://img.shields.io/cocoapods/v/SFSymbols.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
-[![License](https://img.shields.io/cocoapods/l/SFSymbols.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
+[![License](https://img.shields.io/badge/license-MIT-lightgray.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
 [![Platform](https://img.shields.io/cocoapods/p/SFSymbols.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
 
 [![SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/images/sf-symbols-scales-weights_2x.png)](https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/)
