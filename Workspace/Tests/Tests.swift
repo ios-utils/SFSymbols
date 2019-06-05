@@ -3,6 +3,17 @@ import XCTest
 
 class Tests: XCTestCase {
     
+    /// Checks the result of `UIImage(symbol:weight:scale:)` correctly applies the wight and scale symbol configuraiton properties.
+    func testUIImageSymbolInitializerShortcutsForWeightAndScaleWork() {
+        let symbol: SFSymbol = .alarm
+        let symbolImage: UIImage = UIImage(symbol: symbol, weight: .bold, scale: .large)
+        let systemNameImage: UIImage? = UIImage(systemName: symbol.systemName)?
+            .applyingSymbolConfiguration(UIImage.SymbolConfiguration(weight: .bold))?
+            .applyingSymbolConfiguration(UIImage.SymbolConfiguration(scale: .large))
+        
+        XCTAssertEqual(symbolImage, systemNameImage)
+    }
+    
     /// Checks the resulting image data is the same for both the `UIImage?(systemName:)` and `UIImage(symbol:)` initializers.
     func testUIImageSymbolInitializerAndSystemNameInitializerHaveEqualImageData() {
         for symbol in SFSymbol.allCases {
