@@ -3,6 +3,7 @@
 Autocompleted, compile-time constants for Apple's built-in SF Symbols.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d4f772e4db8461ca8cdc06713e101c1)](https://www.codacy.com/app/hubrioAU/SFSymbols?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hubrioAU/SFSymbols&amp;utm_campaign=Badge_Grade)
+[![Language](https://img.shields.io/badge/language-Swift%205.1+-ee5137.svg?style=flat)](https://swift.org)
 [![Version](https://img.shields.io/cocoapods/v/SFSymbols.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
 [![License](https://img.shields.io/badge/license-MIT-lightgray.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
 [![Platform](https://img.shields.io/cocoapods/p/SFSymbols.svg?style=flat)](https://cocoapods.org/pods/SFSymbols)
