@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SFSymbols'
-  s.version          = '0.9.1'
+  s.version          = '0.9.2'
   s.summary          = 'Compile-time constants for SF Symbols.'
   
   s.ios.deployment_target = '13.0'

@@ -808,10 +808,10 @@ public enum SFSymbol: String {
     case lessthanCircleFill = "lessthan.circle.fill"
     
     /// Symbol: "number.circle"
-    case numeralCircle = "number.circle"
+    case numberCircle = "number.circle"
     
     /// Symbol: "number.circle.fill"
-    case numeralCircleFill = "number.circle.fill"
+    case numberCircleFill = "number.circle.fill"
     
     /// Symbol: "questionmark.circle"
     case questionmarkCircle = "questionmark.circle"
@@ -1792,10 +1792,10 @@ public enum SFSymbol: String {
     case lessthanSquareFill = "lessthan.square.fill"
     
     /// Symbol: "number.square"
-    case numeralSquare = "number.square"
+    case numberSquare = "number.square"
     
     /// Symbol: "number.square.fill"
-    case numeralSquareFill = "number.square.fill"
+    case numberSquareFill = "number.square.fill"
     
     /// Symbol: "questionmark.square"
     case questionmarkSquare = "questionmark.square"
