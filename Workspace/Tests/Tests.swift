@@ -21,10 +21,4 @@ class Tests: XCTestCase {
         }
     }
     
-    /// We also want to verify sure that invalid system names do fail when using the `UIImage?(systemName:)` initializer.
-    func testUIImageSystemNameInitializerFailsForInvalidSystemNames() {
-        let image = UIImage(systemName: "")
-        XCTAssertNil(image)
-    }
-    
 }

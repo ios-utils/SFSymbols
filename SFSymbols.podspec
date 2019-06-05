@@ -22,5 +22,5 @@ A set of over 1,500 consistent, highly configurable symbols you can use in your 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Reece Como' => 'reece@hubr.io' }
   s.source           = { :git => 'https://github.com/hubrioAU/SFSymbols.git', :tag => s.version.to_s }
-  s.source_files = 'SFSymbols/Sources/**/*'
+  s.source_files = 'Sources/SFSymbols/**/*'
 end
