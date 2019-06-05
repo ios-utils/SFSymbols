@@ -1,0 +1,21 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SFSymbols"
+provides-nominal:
+- "9SFSymbolsAAV"
+provides-member:
+- ["9SFSymbolsAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SFSymbols"
+- "StringLiteralType"
+depends-member:
+- ["9SFSymbolsAAV", "init"]
+- ["9SFSymbolsAAV", "text"]
+depends-nominal:
+- "9SFSymbolsAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+interface-hash: "0aabc1f84bc43bfd232cdeabce5e0661"

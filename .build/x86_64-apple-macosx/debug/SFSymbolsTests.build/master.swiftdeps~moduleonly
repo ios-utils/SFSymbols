@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.38.29 clang-1100.0.20.14)"
+options: "9909d7bb99b81c4c53ae55ad060deac8"
+build_time: [1559752320, 914803000]
+inputs:
+  "/Users/reececomo/Documents/Dev/opensource/SFSymbols/Tests/SFSymbolsTests/SFSymbolsTests.swift": [1559752310, 41555581]
+  "/Users/reececomo/Documents/Dev/opensource/SFSymbols/Tests/SFSymbolsTests/XCTestManifests.swift": [1559752310, 41777631]

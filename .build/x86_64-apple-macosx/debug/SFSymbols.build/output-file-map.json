@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbols.build/master.swiftdeps"
+  },
+  "/Users/reececomo/Documents/Dev/opensource/SFSymbols/Sources/SFSymbols/SFSymbols.swift": {
+    "dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbols.build/SFSymbols.d",
+    "object": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbols.build/SFSymbols.swift.o",
+    "swiftmodule": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbols.build/SFSymbols~partial.swiftmodule",
+    "swift-dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbols.build/SFSymbols.swiftdeps"
+  }
+}

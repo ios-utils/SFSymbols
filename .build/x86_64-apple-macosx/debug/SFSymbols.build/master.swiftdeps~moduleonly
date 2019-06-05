@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.38.29 clang-1100.0.20.14)"
+options: "67e0ec89998b9c97c88d574e397c3d77"
+build_time: [1559752319, 160918000]
+inputs:
+  "/Users/reececomo/Documents/Dev/opensource/SFSymbols/Sources/SFSymbols/SFSymbols.swift": [1559752310, 40793273]

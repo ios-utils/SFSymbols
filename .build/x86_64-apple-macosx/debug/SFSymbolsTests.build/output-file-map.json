@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/master.swiftdeps"
+  },
+  "/Users/reececomo/Documents/Dev/opensource/SFSymbols/Tests/SFSymbolsTests/SFSymbolsTests.swift": {
+    "dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/SFSymbolsTests.d",
+    "object": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/SFSymbolsTests.swift.o",
+    "swiftmodule": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/SFSymbolsTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/SFSymbolsTests.swiftdeps"
+  },
+  "/Users/reececomo/Documents/Dev/opensource/SFSymbols/Tests/SFSymbolsTests/XCTestManifests.swift": {
+    "dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/XCTestManifests.d",
+    "object": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/reececomo/Documents/Dev/opensource/SFSymbols/.build/x86_64-apple-macosx/debug/SFSymbolsTests.build/XCTestManifests.swiftdeps"
+  }
+}

@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29E5E5C122A7360500977A45 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E5E5C022A7360500977A45 /* UIImage+SFSymbol.swift */; };
+		29B9987722A826C300023682 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987522A826C300023682 /* SFSymbol.swift */; };
+		29B9987822A826C300023682 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987622A826C300023682 /* UIImage+SFSymbol.swift */; };
 		2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */; };
 		5682DFFA996BDAABCB938DC2E053ABD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */; };
 		7AB92CCBC848B7FDBFFE3CEF3ECDE89C /* Pods-SFSymbols_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD6B0B29ECAE129F04729D9B0BF6813 /* Pods-SFSymbols_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C756E2D283D91060FD8D72E0AED5EF06 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2B3E598102B17BD12F1778A67F44E /* SFSymbol.swift */; };
 		DFD51AD4DCEF74668BE2911258111B3D /* SFSymbols-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C9D584F0CBE5920BC3BF5F47FE9F00 /* SFSymbols-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6415C73530FE78D303B828C522C648F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -33,12 +33,12 @@
 		1495C834C54D9AA41079CC2DE11DC9C1 /* SFSymbols-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFSymbols-prefix.pch"; sourceTree = "<group>"; };
 		18EB07B415782453F984F9E59C8971BE /* SFSymbols-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFSymbols-Info.plist"; sourceTree = "<group>"; };
 		19D51B587243E4F46EFF566E29424C92 /* SFSymbols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFSymbols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E5E5C022A7360500977A45 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SFSymbol.swift"; path = "SFSymbols/UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
+		29B9987522A826C300023682 /* SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFSymbol.swift; path = Sources/SFSymbols/SFSymbol.swift; sourceTree = "<group>"; };
+		29B9987622A826C300023682 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+SFSymbol.swift"; path = "Sources/SFSymbols/UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		38782AA9BA5683445528EB74F59FA5D9 /* Pods-SFSymbols_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFSymbols_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		659A0CAB5434663CA2C49751F1B533D2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67521BC099EA6FC0F37A63D7BDDE319E /* Pods-SFSymbols_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFSymbols_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A2C26268C3BB939573F9272193D2ED4 /* Pods_SFSymbols_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFSymbols_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BB2B3E598102B17BD12F1778A67F44E /* SFSymbol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFSymbol.swift; path = SFSymbols/SFSymbol.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFSymbols_Tests-dummy.m"; sourceTree = "<group>"; };
 		A8D28A711B2A40F21A99149D59C79D23 /* SFSymbols.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFSymbols.xcconfig; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 		09C5805E669C11D55C6194402352B021 /* SFSymbols */ = {
 			isa = PBXGroup;
 			children = (
-				7BB2B3E598102B17BD12F1778A67F44E /* SFSymbol.swift */,
-				29E5E5C022A7360500977A45 /* UIImage+SFSymbol.swift */,
+				29B9987522A826C300023682 /* SFSymbol.swift */,
+				29B9987622A826C300023682 /* UIImage+SFSymbol.swift */,
 				D913965D63FF0F31BD86E80D12048DE9 /* Pod */,
 				7F24CC5211732A7B97686FD918BE5AFB /* Support Files */,
 			);
@@ -246,6 +246,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					317D016F50EAEDDF330750407806FC1D = {
+						LastSwiftMigration = 1100;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -288,6 +293,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B9987722A826C300023682 /* SFSymbol.swift in Sources */,
+				29B9987822A826C300023682 /* UIImage+SFSymbol.swift in Sources */,
 				596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,8 +303,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C756E2D283D91060FD8D72E0AED5EF06 /* SFSymbol.swift in Sources */,
-				29E5E5C122A7360500977A45 /* UIImage+SFSymbol.swift in Sources */,
 				2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +324,7 @@
 			baseConfigurationReference = D4E7826B35BCA3E1C0C109F36716A634 /* Pods-SFSymbols_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -341,6 +347,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -416,6 +423,7 @@
 			baseConfigurationReference = 076203FCCF7D8B3F933A41AF8F1C5E9C /* Pods-SFSymbols_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -438,6 +446,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
