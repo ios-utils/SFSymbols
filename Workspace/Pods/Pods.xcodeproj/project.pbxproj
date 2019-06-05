@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29B9987722A826C300023682 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987522A826C300023682 /* SFSymbol.swift */; };
-		29B9987822A826C300023682 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987622A826C300023682 /* UIImage+SFSymbol.swift */; };
+		29B9989B22A8510A00023682 /* SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987522A826C300023682 /* SFSymbol.swift */; };
+		29B9989C22A8510A00023682 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B9987622A826C300023682 /* UIImage+SFSymbol.swift */; };
 		2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */; };
 		5682DFFA996BDAABCB938DC2E053ABD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */; };
@@ -43,7 +43,7 @@
 		A5D2D9267EEDBF8BE8341C82153BC462 /* Pods-SFSymbols_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFSymbols_Tests-dummy.m"; sourceTree = "<group>"; };
 		A8D28A711B2A40F21A99149D59C79D23 /* SFSymbols.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFSymbols.xcconfig; sourceTree = "<group>"; };
 		ABE86A016C06E5AC23AB46221B78FCCF /* Pods-SFSymbols_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFSymbols_Tests.modulemap"; sourceTree = "<group>"; };
-		B39C6CD59E11F4AB1CB45729020C13FC /* SFSymbols.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SFSymbols.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B39C6CD59E11F4AB1CB45729020C13FC /* SFSymbols.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SFSymbols.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		BCC075D425CEE4CF55B3140C525EFF38 /* Pods-SFSymbols_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFSymbols_Tests-Info.plist"; sourceTree = "<group>"; };
 		C3FD37CD2501A6694001C3B0CEF752C5 /* SFSymbols-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFSymbols-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -97,7 +97,7 @@
 				D5C9D584F0CBE5920BC3BF5F47FE9F00 /* SFSymbols-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SFSymbols";
+			path = "Workspace/Pods/Target Support Files/SFSymbols";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -293,8 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B9987722A826C300023682 /* SFSymbol.swift in Sources */,
-				29B9987822A826C300023682 /* UIImage+SFSymbol.swift in Sources */,
 				596ADAA33309674584F21B1A72DB1496 /* Pods-SFSymbols_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B9989B22A8510A00023682 /* SFSymbol.swift in Sources */,
+				29B9989C22A8510A00023682 /* UIImage+SFSymbol.swift in Sources */,
 				2E9C0863DF76571BAEDAE9B64A64EADF /* SFSymbols-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

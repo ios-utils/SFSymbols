@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SFSymbols'
-  s.version          = '0.9.2'
+  s.version          = '0.9.3'
   s.summary          = 'Compile-time constants for SF Symbols.'
   
   s.ios.deployment_target = '13.0'
@@ -22,5 +22,5 @@ A set of over 1,500 consistent, highly configurable symbols you can use in your 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Reece Como' => 'reece@hubr.io' }
   s.source           = { :git => 'https://github.com/hubrioAU/SFSymbols.git', :tag => s.version.to_s }
-  s.source_files = 'Sources/SFSymbols/**/*'
+  s.source_files = 'SFSymbols/Sources/**/*'
 end

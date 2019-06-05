@@ -1,7 +1,7 @@
 import Foundation
 
 /**
- Built-in SF Symbols
+ Built-in SF Symbol.
  
  Compile-time constants for built-in SF Symbols.
  
@@ -9,9 +9,10 @@ import Foundation
  
  - See SF Symbols App: https://developer.apple.com/design/downloads/SF-Symbols.dmg
  - See Apple Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
+ 
  */
 @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
-public enum SFSymbol : String {
+public enum SFSymbol : String, CaseIterable {
     
     // MARK: - Properties
     
@@ -29,10 +30,10 @@ public enum SFSymbol : String {
     case circleFill = "circle.fill"
     
     /// Symbol: "circle.lefthalf.fill"
-    case circleLeftHalfFill = "circle.lefthalf.fill"
+    case circleLefthalfFill = "circle.lefthalf.fill"
     
     /// Symbol: "circle.righthalf.fill"
-    case circleRightHalfFill = "circle.righthalf.fill"
+    case circleRighthalfFill = "circle.righthalf.fill"
     
     /// Symbol: "a.circle"
     case aCircle = "a.circle"
@@ -1013,10 +1014,10 @@ public enum SFSymbol : String {
     case squareFill = "square.fill"
     
     /// Symbol: "square.lefthalf.fill"
-    case squareLeftHalfFill = "square.lefthalf.fill"
+    case squareLefthalfFill = "square.lefthalf.fill"
     
     /// Symbol: "square.righthalf.fill"
-    case squareRightHalfFill = "square.righthalf.fill"
+    case squareRighthalfFill = "square.righthalf.fill"
     
     /// Symbol: "a.square"
     case aSquare = "a.square"
@@ -1979,10 +1980,10 @@ public enum SFSymbol : String {
     case triangleFill = "triangle.fill"
     
     /// Symbol: "triangle.lefthalf.fill"
-    case triangleLeftHalfFill = "triangle.lefthalf.fill"
+    case triangleLefthalfFill = "triangle.lefthalf.fill"
     
     /// Symbol: "triangle.righthalf.fill"
-    case triangleRightHalfFill = "triangle.righthalf.fill"
+    case triangleRighthalfFill = "triangle.righthalf.fill"
     
     /// Symbol: "arrowtriangle.up"
     case arrowtriangleUp = "arrowtriangle.up"
@@ -2908,35 +2909,35 @@ public enum SFSymbol : String {
     /// Symbol: "calendar.badge.minus"
     case calendarBadgeMinus = "calendar.badge.minus"
     
-    /// Symbol: "arrowShape.turn.up.left"
-    case arrowShapeTurnUpLeft = "arrowShape.turn.up.left"
+    /// Symbol: "arrowshape.turn.up.left"
+    case arrowshapeTurnUpLeft = "arrowshape.turn.up.left"
     
-    /// Symbol: "arrowShape.turn.up.left.fill"
-    case arrowShapeTurnUpLeftFill = "arrowShape.turn.up.left.fill"
+    /// Symbol: "arrowshape.turn.up.left.fill"
+    case arrowshapeTurnUpLeftFill = "arrowshape.turn.up.left.fill"
     
-    /// Symbol: "arrowShape.turn.up.left.circle"
-    case arrowShapeTurnUpLeftCircle = "arrowShape.turn.up.left.circle"
+    /// Symbol: "arrowshape.turn.up.left.circle"
+    case arrowshapeTurnUpLeftCircle = "arrowshape.turn.up.left.circle"
     
-    /// Symbol: "arrowShape.turn.up.left.circle.fill"
-    case arrowShapeTurnUpLeftCircleFill = "arrowShape.turn.up.left.circle.fill"
+    /// Symbol: "arrowshape.turn.up.left.circle.fill"
+    case arrowshapeTurnUpLeftCircleFill = "arrowshape.turn.up.left.circle.fill"
     
-    /// Symbol: "arrowShape.turn.up.right"
-    case arrowShapeTurnUpRight = "arrowShape.turn.up.right"
+    /// Symbol: "arrowshape.turn.up.right"
+    case arrowshapeTurnUpRight = "arrowshape.turn.up.right"
     
-    /// Symbol: "arrowShape.turn.up.right.fill"
-    case arrowShapeTurnUpRightFill = "arrowShape.turn.up.right.fill"
+    /// Symbol: "arrowshape.turn.up.right.fill"
+    case arrowshapeTurnUpRightFill = "arrowshape.turn.up.right.fill"
     
-    /// Symbol: "arrowShape.turn.up.right.circle"
-    case arrowShapeTurnUpRightCircle = "arrowShape.turn.up.right.circle"
+    /// Symbol: "arrowshape.turn.up.right.circle"
+    case arrowshapeTurnUpRightCircle = "arrowshape.turn.up.right.circle"
     
-    /// Symbol: "arrowShape.turn.up.right.circle.fill"
-    case arrowShapeTurnUpRightCircleFill = "arrowShape.turn.up.right.circle.fill"
+    /// Symbol: "arrowshape.turn.up.right.circle.fill"
+    case arrowshapeTurnUpRightCircleFill = "arrowshape.turn.up.right.circle.fill"
     
-    /// Symbol: "arrowShape.turn.up.left.2"
-    case arrowShapeTurnUpLeft2 = "arrowShape.turn.up.left.2"
+    /// Symbol: "arrowshape.turn.up.left.2"
+    case arrowshapeTurnUpLeft2 = "arrowshape.turn.up.left.2"
     
-    /// Symbol: "arrowShape.turn.up.left.2.fill"
-    case arrowShapeTurnUpLeft2Fill = "arrowShape.turn.up.left.2.fill"
+    /// Symbol: "arrowshape.turn.up.left.2.fill"
+    case arrowshapeTurnUpLeft2Fill = "arrowshape.turn.up.left.2.fill"
     
     /// Symbol: "book"
     case book = "book"
@@ -3344,7 +3345,7 @@ public enum SFSymbol : String {
     case starFill = "star.fill"
     
     /// Symbol: "star.lefthalf.fill"
-    case starLeftHalfFill = "star.lefthalf.fill"
+    case starLefthalfFill = "star.lefthalf.fill"
     
     /// Symbol: "star.circle"
     case starCircle = "star.circle"
@@ -4511,7 +4512,7 @@ public enum SFSymbol : String {
     case shieldFill = "shield.fill"
     
     /// Symbol: "shield.lefthalf.fill"
-    case shieldLeftHalfFill = "shield.lefthalf.fill"
+    case shieldLefthalfFill = "shield.lefthalf.fill"
     
     /// Symbol: "slider.horizontal.below.rectangle"
     case sliderHorizontalBelowRectangle = "slider.horizontal.below.rectangle"
