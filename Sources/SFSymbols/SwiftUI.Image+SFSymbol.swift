@@ -1,5 +1,6 @@
-#if canImport(SwiftUI)
+#if canImport(SwiftUI) && canImport(UIKit)
 import SwiftUI
+import UIKit
 
 /**
  Extension for `SwiftUI.Image` to initialize with a built-in SF Symbol.
