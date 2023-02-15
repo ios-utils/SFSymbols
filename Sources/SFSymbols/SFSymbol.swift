@@ -101,6 +101,12 @@ public enum SFSymbol : String, CaseIterable {
     /// Symbol: "k.circle.fill"
     case kCircleFill = "k.circle.fill"
     
+    /// Symbol: "ladybug"
+    case ladybug = "ladybug"
+ 
+    /// Symbol: "ladybug.fill"
+    case ladybugFill = "ladybug.fill"
+ 
     /// Symbol: "l.circle"
     case lCircle = "l.circle"
     
